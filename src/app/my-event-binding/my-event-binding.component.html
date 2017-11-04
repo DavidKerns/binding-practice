@@ -1,4 +1,3 @@
 
   <input (keyup)="recordAllTheKeyStrokes($event)">
-  <input #myInput (keyup)="0">
-       <p> {{ myInput.value }} </p>
+ <input #myInput (keyup)="onKey(myInput.value)">
